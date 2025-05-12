@@ -8,13 +8,13 @@ const LogicForm = () => {
         e.preventDefault();
         if(!username){
 
-           setError('username is required');
+           setError('Both username and password are required.');
            
             return;
         }
 
         if(!password){
-           setError('password is required')
+           setError('Both username and password are required.')
             return;
         }
         setUsername('');
